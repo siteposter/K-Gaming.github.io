@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#201512"/>
+      <stop offset="100%" stop-color="#3a2822"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffad70"/>
+      <stop offset="100%" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="180" r="220" fill="#ffad70" opacity="0.15" filter="url(#blur)"/>
+  <circle cx="250" cy="500" r="180" fill="#ba7148" opacity="0.2" filter="url(#blur)"/>
+  <g transform="translate(80, 120)">
+    <rect x="0" y="0" width="56" height="56" rx="12" fill="url(#accent)"/>
+    <text x="28" y="40" font-family="Inter, sans-serif" font-size="34" font-weight="900" fill="#33190d" text-anchor="middle">K</text>
+  </g>
+  <text x="80" y="260" font-family="Inter, sans-serif" font-size="88" font-weight="900" fill="#fff0e4" letter-spacing="-3">K Gaming</text>
+  <text x="80" y="330" font-family="Inter, sans-serif" font-size="34" font-weight="500" fill="#c1a89a">Каталог игр, подборки и отзывы игроков</text>
+  <text x="80" y="400" font-family="Inter, sans-serif" font-size="22" fill="#ffad70">Выбери свой мир · 56 игр · Быстрый поиск</text>
+  <g transform="translate(80, 470)" fill="none" stroke="#51372d" stroke-width="1">
+    <rect x="0" y="0" width="180" height="90" rx="8"/>
+    <rect x="200" y="0" width="180" height="90" rx="8"/>
+    <rect x="400" y="0" width="180" height="90" rx="8"/>
+    <rect x="600" y="0" width="180" height="90" rx="8"/>
+  </g>
+  <g transform="translate(80, 470)" fill="#ffad70" font-family="Inter, sans-serif" font-size="13" font-weight="800">
+    <text x="90" y="50" text-anchor="middle">Dota 2</text>
+    <text x="290" y="50" text-anchor="middle">CS2</text>
+    <text x="490" y="50" text-anchor="middle">Valorant</text>
+    <text x="690" y="50" text-anchor="middle">Minecraft</text>
+  </g>
+  <text x="1120" y="600" font-family="Inter, sans-serif" font-size="14" fill="#c1a89a" text-anchor="end">k-gaming.example.com</text>
+</svg>
